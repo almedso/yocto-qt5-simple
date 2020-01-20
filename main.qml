@@ -27,7 +27,6 @@ ApplicationWindow {
         anchors.centerIn: parent
     }
 
-    // A nice red rectangle
     Rectangle {
         width: 200; height: 200
         color: "red"
@@ -45,10 +44,4 @@ ApplicationWindow {
         }
     }
 
-    Text {
-        anchors.left: purpleRectangle.right
-        anchors.right: parent.right
-        text: "MINI - TEXT"
-        font.pointSize: 30
-    }
 }
